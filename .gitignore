@@ -1,0 +1,21 @@
+# Ignore PyTorch model files
+*.bin
+*.pt
+*.safetensors
+
+# Ignore Hugging Face cache and local model directories
+/results/
+/fine_tuned_gpt2_merged/
+/fine_tuned_gpt2_lora/
+/fine_tuned_gpt2_fc_only/
+/checkpoints/
+
+# Ignore Python specific files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# Ignore Streamlit specific files
+.streamlit/
